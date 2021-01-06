@@ -18,6 +18,7 @@ defmodule LiveViewIssueDemoWeb.Router do
     pipe_through :browser
 
     live "/", PageLive, :index
+    live "/demo", IssueDemoLive, :index
   end
 
   # Other scopes may use custom stacks.
